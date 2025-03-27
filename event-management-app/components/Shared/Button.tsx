@@ -15,13 +15,14 @@ export default function Button({text, onPress}:ButtonPrpos) {
               style={{
                 marginTop: 15,
                 backgroundColor: Colors.PRIMARY,
-    
+                padding:10,
                 borderRadius: 10,
               }}
             >
               <Text
                 style={{
-                  fontSize: 18,
+                  fontSize: 17,
+                  fontWeight: '600',
                   textAlign: "center",
                   color: Colors.WHITE,
                 }}

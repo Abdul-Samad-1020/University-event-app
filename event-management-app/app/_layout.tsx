@@ -8,7 +8,7 @@ export default function RootLayout() {
         headerShown: false,
         
       }}/>
-      <Stack.Screen name="SignUp"
+      <Stack.Screen name='(auth)/SignUp'
             options={{
         headerTransparent: true,
         headerTitle: '',
