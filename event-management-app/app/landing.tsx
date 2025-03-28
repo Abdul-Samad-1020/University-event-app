@@ -12,12 +12,17 @@ const landing = () => {
         source={require("./../assets/images/login.png")}
         style={{
           width: "100%",
-          height: 480,
+          height: 450,
+          
         }}
       ></Image>
       <View
         style={{
-          padding: 20,
+          // borderTopRightRadius:20,
+          padding:20,
+          marginTop:0,
+          height: 450,
+         
         }}
       >
         <Text
