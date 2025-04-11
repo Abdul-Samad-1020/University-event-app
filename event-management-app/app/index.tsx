@@ -11,5 +11,6 @@ export default function Index() {
     >
     <Redirect href={"/landing"}/>
     </View>
+  
   );
 }
